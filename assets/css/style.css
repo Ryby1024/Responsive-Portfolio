@@ -36,7 +36,8 @@ h2  {
     color: white;
     padding: 10px;
     border: 1px  solid rgb(190, 187, 187);
-    border-radius: 5px;  
+    border-radius: 5px;
+    font-size: 20px;  
 }
 
 /* Images */
@@ -96,6 +97,7 @@ ul  {
     margin-right: 10px;
     padding: 0px;
     text-align: center;
+    margin-top: 0px;
     
 }
 li  {
@@ -110,13 +112,10 @@ a  {
 /* Contact page*/
 
 
-form    {
-    width: 96.5%;
-    
-}
+
 
 input   {
-    width: 100%;
+    width: 97.75%;
     margin: 10px;
     padding: 10px;
     
@@ -124,7 +123,7 @@ input   {
 textarea    {
     resize: none;
     height: 250px;
-    width: 100%;
+    width: 97.8%;
     margin: 10px;
     padding: 10px;
    
@@ -140,6 +139,11 @@ button  {
     border-radius: 10px;
     background-color: #99d3df;
 }
+.contactme  {
+    width: 99%;
+    margin-right: 20px;
+}
+
 /*Portfolio page*/
 figcaption  {
     float:  left;
@@ -157,6 +161,22 @@ figure  {
     margin-top: 0px;
 }  
 @media screen and (max-width: 980px){
+    #project1   {
+        margin-left: auto;
+        width: 100%;
+    }
+    #project2   {
+        margin-left: auto;
+        width: 100%;
+    }
+    #project3   {
+        margin-left: auto;
+        width: 100%;
+    }
+    #project4   {
+        margin-left: auto;
+        width: 100%;
+    }
 
 }
 
@@ -186,7 +206,7 @@ figure  {
     }
     #navbar  {
         display: inline-block;
-        margin-left: 150px;
+        margin-left: 20%;
         
     }
     #Roy      {
