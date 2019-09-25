@@ -199,6 +199,7 @@ figure  {
    figure  {
     float: none;
     margin-left: 75px;
+    
    }
    #project1   {
     width: 100%;
@@ -219,5 +220,7 @@ figure  {
     width: 100%;
     margin-left: 75px;
     }
-   
+   .projects    {
+       overflow: auto;
+   }
 }
