@@ -17,9 +17,13 @@ section {
     border-radius: 5px;
     font-size: 18px;
     height: 600px;
+    opacity: 0;
+    transition: 0.5s;
+    animation: fadeIn 0.8s linear 1.0s forwards
 }
 /* Headers */
 h1  {
+    position: relative;
     background: #88bbd6;
     padding: 20px;
     width: 90px;
@@ -31,13 +35,17 @@ h1  {
     margin-left: 10px;
     border-radius: 5px;
     
+    left: -100%;
+
+    animation: slideIn 0.5s 0.5s forwards cubic-bezier(.5, .5, .5, 1.1);
+    
 }
 h2  {
     color: white;
     padding: 10px;
     border: 1px  solid rgb(190, 187, 187);
     border-radius: 5px;
-    font-size: 20px;  
+    font-size: 20px;
 }
 
 /* Images */
@@ -159,7 +167,17 @@ figure  {
     padding: 10px;
     margin-bottom: 0px;
     margin-top: 0px;
-}  
+} 
+
+@keyframes slideIn  {
+    from { left: -100%}
+    to {left: 0%}
+}
+@keyframes fadeIn   {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 @media screen and (max-width: 980px){
     #project1   {
         margin-left: auto;
