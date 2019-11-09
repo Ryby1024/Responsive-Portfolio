@@ -199,6 +199,14 @@ figure  {
         margin-left: auto;
         width: 100%;
     }
+    #project5   {
+        margin-left: auto;
+        width: 100%;
+    }
+    #project6   {
+        margin-left: auto;
+        width: 100%;
+    }
 
 }
 
@@ -216,6 +224,12 @@ figure  {
         width: 100%;
     }
     #project4   {
+        width: 100%;
+    }
+    #project5   {
+        width: 100%;
+    }
+    #project6   {
         width: 100%;
     }
         
@@ -261,6 +275,14 @@ figure  {
     #project4   {
     width: 100%;
     margin-left: 75px;
+    }
+    #project5   {
+        width: 100%;
+        margin-left: 75px;
+    }
+    #project6   {
+        width: 100%;
+        margin-left: 75px;
     }
    .projects    {
        overflow: auto;
